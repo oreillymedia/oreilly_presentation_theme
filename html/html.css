@@ -24,8 +24,21 @@ h1 {
   color: #990000;
 }
 
-p, pre {
+td, p, pre {
   font-size: 2em;
+}
+
+td p {
+  font-size: 1em;
+}
+
+td {
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+tr {
+  border-bottom: 1px solid #d8d8d8;
 }
 
 ul, ol {
@@ -92,6 +105,18 @@ section[data-type="titlepage"], section[data-type="chapter"] {
   color: #660000;
 }
 
+.floatleft {
+  float: left;
+  max-width: 25%;
+  margin-bottom: 20px;
+}
+
+.floatright {
+  float: right;
+  max-width: 25%;
+  margin-bottom: 20px;
+}
+
 /* vertical centering */
 
 .vcenter {
@@ -121,4 +146,12 @@ section[data-type="titlepage"], section[data-type="chapter"] {
   -ms-transform:none;
   -o-transform:none;
   transform:none;
+}
+
+.highlight {
+  background-color: #FFE600;
+}
+
+.highlight2 {
+  color: #20B2AA;
 }
