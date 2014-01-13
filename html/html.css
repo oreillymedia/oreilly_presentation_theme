@@ -107,14 +107,20 @@ section[data-type="titlepage"], section[data-type="chapter"] {
 
 .floatleft {
   float: left;
-  max-width: 25%;
   margin-bottom: 20px;
+}
+
+img.floatleft {
+  max-width: 30%;
 }
 
 .floatright {
   float: right;
-  max-width: 25%;
   margin-bottom: 20px;
+}
+
+img.floatright {
+  max-width: 30%;
 }
 
 /* vertical centering */
@@ -150,6 +156,18 @@ section[data-type="titlepage"], section[data-type="chapter"] {
 
 .highlight {
   background-color: #FFE600;
+}
+
+.highlight2 {
+  color: #20B2AA;
+}
+
+.highlight {
+  background-color: #FFE600;
+}
+
+h1.highlight {
+  padding: 5px;
 }
 
 .highlight2 {
