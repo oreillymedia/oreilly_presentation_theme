@@ -7,14 +7,14 @@
  /* globals */
 
 html {
+}
+
+body {
   background-image: url('footer.png');
   background-position: bottom left;
   background-size: auto 40px;
   background-repeat: no-repeat;
   padding: 0px 40px;
-}
-
-body {
   font-family: sans-serif;
 }
 
