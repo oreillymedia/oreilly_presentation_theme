@@ -1,4 +1,6 @@
-# O'Reilly Atlas Presentation template
+# O'Reilly Presentation Theme
+
+This theme is intended to work alongside the presentation template in Atlas. In order for these styles to be applied correctly, new projects must begin with all the base files included in https://github.com/oreillymedia/presentation-template. When not creating a new presentation within Atlas, begin by downloading these following files and adding them to your project repository: https://github.com/oreillymedia/presentation-template/archive/master.zip.
 
 Create each slide as a separate html file, with a parent container of: 
     <section data-type="chapter">
